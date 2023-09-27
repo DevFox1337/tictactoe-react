@@ -1,0 +1,36 @@
+.game {
+  @include flex-column-center;
+  gap: spacing(5);
+  min-height: 100vh;
+
+  &__image {
+    position: fixed;
+    width: 60px;
+    bottom: spacing(2);
+    right: spacing(2);
+
+    @include medium-viewports {
+      width: 80px;
+    }
+  }
+
+  &__button-container {
+    @include flex-row-center;
+    gap: spacing(3);
+  }
+
+  &__score-container {
+    @include flex-column-center;
+    gap: spacing(2);
+  }
+
+  &__board {
+    @include flex-column-center;
+    gap: spacing(2);
+  }
+
+  &__board-row {
+    @include flex-row-center;
+    gap: spacing(2);
+  }
+}

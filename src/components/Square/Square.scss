@@ -1,0 +1,28 @@
+$square-size: 90px;
+$square-size-large: 120px;
+
+.square {
+  @include flex-row-center;
+  height: $square-size;
+  width: $square-size;
+  background: $clr-white;
+  border: 3px solid $clr-black;
+  border-radius: $defaultBorderRadius;
+  box-shadow: $defaultBoxShadow;
+  cursor: pointer;
+
+  @include medium-viewports {
+    height: $square-size-large;
+    width: $square-size-large;
+  }
+
+  &--X {
+    color: $clr-blue-secondary;
+    border: 5px solid $clr-blue-secondary;
+  }
+
+  &--O {
+    color: $clr-red-secondary;
+    border: 5px solid $clr-red-secondary;
+  }
+}

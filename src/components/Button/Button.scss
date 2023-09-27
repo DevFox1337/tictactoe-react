@@ -1,0 +1,49 @@
+.button {
+  border: none;
+  border-radius: $defaultBorderRadius;
+  box-shadow: $defaultBoxShadow;
+  color: $clr-white;
+  cursor: pointer;
+  outline: none;
+  padding: spacing(3);
+  transition: 0.3s;
+  width: 150px;
+
+  @include medium-viewports {
+    width: 180px;
+  }
+
+  &__content {
+    font-family: 'Skranji';
+    font-size: pixels-to-rem(18);
+  }
+
+  &--green {
+    background-color: $clr-green-primary;
+
+    &:hover {
+      background-color: $clr-green-secondary;
+    }
+  }
+
+  &--red {
+    background-color: $clr-red-primary;
+
+    &:hover {
+      background-color: $clr-red-secondary;
+    }
+  }
+
+  &--yellow {
+    background-color: $clr-yellow-primary;
+
+    &:hover {
+      background-color: $clr-yellow-secondary;
+    }
+  }
+
+  &--disabled {
+    background-color: $clr-disabled;
+    pointer-events: none;
+  }
+}

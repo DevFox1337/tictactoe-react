@@ -1,0 +1,24 @@
+// BORDER-RADIUS
+$defaultBorderRadius: spacing(2);
+
+// BOX-SHADOW
+$defaultBoxShadow:  0px 3px 3px rgba(0, 0, 0, 0.2);
+
+// BREAKPOINTS
+$breakpointSmall: 576px;
+$breakpointMedium: 768px;
+$breakpointLarge: 1024px;
+$breakpointExtraLarge: 1280px;
+
+// COLORS
+$clr-blue-primary: #0000ff;
+$clr-blue-secondary: #000099;
+$clr-green-primary: #008000;
+$clr-green-secondary: #004d00;
+$clr-red-primary: #e60000;
+$clr-red-secondary: #990000;
+$clr-yellow-primary: #daa520;
+$clr-yellow-secondary: #9b7617;
+$clr-disabled: #808080;
+$clr-white: #ffffff;
+$clr-black: #000000;

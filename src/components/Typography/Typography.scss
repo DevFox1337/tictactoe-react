@@ -1,0 +1,40 @@
+.typography {
+  font-family: 'Skranji', sans-serif;
+
+  &--large {
+    font-size: pixels-to-rem(46);
+    font-weight: 100;
+
+    @include medium-viewports {
+      font-size: pixels-to-rem(56);
+    }
+  }
+
+  &--medium {
+    font-size: pixels-to-rem(36);
+
+    @include medium-viewports {
+      font-size: pixels-to-rem(46);
+    }
+  }
+
+  &--regular {
+    font-size: pixels-to-rem(28);
+
+    @include medium-viewports {
+      font-size: pixels-to-rem(38);
+    }
+  }
+
+  &--small {
+    font-size: pixels-to-rem(20);
+
+    @include medium-viewports {
+      font-size: pixels-to-rem(24);
+    }
+  }
+
+  &--bold {
+    font-weight: bold;
+  }
+}

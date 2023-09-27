@@ -1,0 +1,10 @@
+.modal {
+  @include flex-column-center;
+  gap: spacing(4);
+  height: 100vh;
+
+  &__button-container {
+    @include flex-row-center;
+    gap: spacing(4);
+  }
+}

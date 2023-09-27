@@ -1,0 +1,16 @@
+{
+  "game": {
+    "drawText": "Draw!",
+    "newRoundButtonText": "New Round",
+    "nextTurnText": "Your turn Player",
+    "resetButtonText": "Reset Game",
+    "scoreText": "SCORE",
+    "titleText": "TIC TAC TOE",
+    "winningText": "The winner is Player"
+  },
+  "modal": {
+    "cancelButtonText": "Cancel",
+    "resetButtonText": "Reset",
+    "resetText": "Please confirm reset"
+  }
+}
